@@ -12,6 +12,13 @@ function stringMasLarga(strings) {
   // stringMasLarga(['JavaScript', 'HTML', 'CSS']); debe retornar 'JavaScript'
 
   // Tu código aca
+  let longeststring = ''
+  for (a of strings){
+    if (a.length > longeststring.length){
+      longeststring = a
+    }
+  }
+  return longeststring
 }
 
 // No modifiques nada debajo de esta linea //

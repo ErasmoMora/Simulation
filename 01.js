@@ -11,7 +11,13 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
-
+  let int = []
+    for (a of array) {
+      if ((a / 1) === a){
+        int.push(a)
+      }
+    }
+  return int
 }
 
 // No modifiques nada debajo de esta linea //
